@@ -108,7 +108,7 @@ export function Sanctuary() {
             for all of us
           </p>
         </div>
-        <img src="/favicon.svg" alt="" width={44} height={44} className="size-11 shrink-0" />
+        <img src={`${import.meta.env.BASE_URL}favicon.svg`} alt="" width={44} height={44} className="size-11 shrink-0" />
       </header>
 
       <h1 className="font-serif text-4xl leading-tight text-balance text-ink sm:text-5xl">
